@@ -6,13 +6,14 @@ function ContactForm({ email, onEmailChange, onSubmit, isLoading }) {
           Email address
         </label>
         <input
-          type="text"
+          type="email"
           id="email"
           value={email}
           onChange={(event) => onEmailChange(event.target.value)}
           className="field-input"
           placeholder="राम@नेपाल.नेपाल"
           autoComplete="email"
+          required
         />
       </div>
 
