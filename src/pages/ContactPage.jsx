@@ -23,10 +23,7 @@ function ContactPage() {
       setResult(response)
 
       if (response.valid) {
-        // Wait 600ms before redirecting so user briefly sees the validation result
-        setTimeout(() => {
-          navigate('/success', { state: response })
-        }, 600)
+        navigate('/success', { state: response })
       }
     } catch (submitError) {
       setError(submitError?.response?.data?.detail || 'Validation service unavailable.')

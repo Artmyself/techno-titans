@@ -6,20 +6,19 @@ function ContactForm({ email, onEmailChange, onSubmit, isLoading }) {
           Email address
         </label>
         <input
-          type="email"
+          type="text"
           id="email"
           value={email}
           onChange={(event) => onEmailChange(event.target.value)}
           className="field-input"
           placeholder="राम@नेपाल.नेपाल"
           autoComplete="email"
-          required
         />
       </div>
 
       <input
         type="submit"
-        value={isLoading ? 'Validating email...' : 'Contact us'}
+        value={isLoading ? 'Validating...' : 'Contact us'}
         id="submit"
         className="submit-button"
         disabled={isLoading}
