@@ -36,7 +36,7 @@ function ContactPage() {
     <main className="page">
       <div className="page-inner hero-grid">
         <section className="panel hero-copy">
-          <div className="eyebrow">CAN InfoTech UA-Ready Contact Platform</div>
+          <div className="eyebrow-1">CAN InfoTech UA-Ready Contact Platform</div>
           <h1 className="title">
             Contact systems that understand
             <span>internationalized email</span>

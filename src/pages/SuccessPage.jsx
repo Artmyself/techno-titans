@@ -7,7 +7,7 @@ function SuccessPage() {
   return (
     <main className="page success-layout">
       <section className="panel success-card">
-        <div className="eyebrow">Validation complete</div>
+        <div className="eyebrow-2">Validation complete</div>
         <h1>Thank you</h1>
         <p>Your UA-ready email was validated successfully.</p>
 

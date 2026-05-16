@@ -18,7 +18,7 @@ function ContactForm({ email, onEmailChange, onSubmit, isLoading }) {
 
       <input
         type="submit"
-        value={isLoading ? 'Validating...' : 'Contact us'}
+        value={isLoading ? 'Validating...' : 'Submit'}
         id="submit"
         className="submit-button"
         disabled={isLoading}

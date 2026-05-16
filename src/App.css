@@ -61,7 +61,7 @@
   padding: 2rem;
 }
 
-.eyebrow {
+.eyebrow-1 {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -71,6 +71,20 @@
   border: 1px solid #f99a1f;
   color: #0c0c0e;
   font-size: 0.85rem;
+}
+
+.eyebrow-2 {
+  display: inline-flex;
+  align-items: center;
+  
+  gap: 0.5rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(249, 154, 31, 0.1);
+  border: 1px solid #f99a1f;
+  color: #316909;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .title {
