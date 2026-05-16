@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+email-validator
+idna
+dnspython
+pydantic
+httpx

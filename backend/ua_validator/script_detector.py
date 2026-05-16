@@ -1,0 +1,1 @@
+from ua_validator.core import detect_scripts
